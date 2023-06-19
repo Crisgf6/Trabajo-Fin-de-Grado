@@ -6,13 +6,13 @@
 #### Este es el repositorio oficial asociado al desarrollo al Trabajo de Fin de Grado de Cristóbal García Fernández
 ---
 
-En este repositorio, están contenidos los **códigos y scripts desarrollados** a los que se ha hecho referencia en el proyecto y que por cuestiones de volumen, no se ha incluido en su totalidad en la memóriañ.
+En este repositorio, están contenidos los **códigos y scripts desarrollados** a los que se ha hecho referencia en el proyecto y que, por cuestiones de volumen, no se ha incluido en su totalidad en la memoria.
 
 ##### En cuanto al contenido:
 
 - **./EBDW.STERLING**
     
-    - *SP_UPDATE_TABLES.sql*: Contiene el script SQL con la definición del **procedimiento almacenado que actializa las tablas** de produccion con el lote de datos más reciente.
+    - *SP_UPDATE_TABLES.sql*: Contiene el script SQL con la definición del **procedimiento almacenado que actualiza las tablas** de producción con el lote de datos más reciente.
 
     - *task.sql*: Contiene la **tarea** que, cada 10 minutos, hace una llamada al procedimiento almacenado pasando como parámetros la vista origen y la tabla destino de un tópico particular. *Se ha incluido este script como ejemplo pero, al haber 18 tópicos, realmente se han desarrollado 18 tareas*.
 
